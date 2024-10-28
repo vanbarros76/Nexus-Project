@@ -1,0 +1,71 @@
+npm verbose cli /home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/bin/node /home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/bin/npm
+npm info using npm@10.8.2
+npm info using node@v20.17.0
+npm verbose title npm install
+npm verbose argv "install" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:/home/vanessa/.npm/_logs/2024-10-27T14_50_49_883Z-
+npm verbose logfile /home/vanessa/.npm/_logs/2024-10-27T14_50_49_883Z-debug-0.log
+npm http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox 1893ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-chai-matchers 1560ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-ethers 1500ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/ethers 677ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/hardhat 707ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/ts-node 53ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@swc%2fcore 234ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 325ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@swc%2fwasm 223ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@types%2fnode 145ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/typescript 77ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/chai 51ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-network-helpers 1834ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-verify 1534ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@typechain%2fethers-v6 1677ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/typechain 646ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@typechain%2fhardhat 1536ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@types%2fchai 71ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@types%2fmocha 643ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/hardhat-gas-reporter 639ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/solidity-coverage 662ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@openzeppelin%2fhardhat-upgrades 1492ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@nomiclabs%2fhardhat-ethers 1548ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/ethers 20ms (cache hit)
+npm verbose stack Error: unable to resolve dependency tree
+npm verbose stack     at #failPeerConflict (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1360:25)
+npm verbose stack     at #loadPeerSet (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1326:33)
+npm verbose stack     at async #loadPeerSet (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1294:11)
+npm verbose stack     at async #buildDepStep (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:901:11)
+npm verbose stack     at async Arborist.buildIdealTree (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+npm verbose stack     at async Promise.all (index 1)
+npm verbose stack     at async Arborist.reify (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+npm verbose stack     at async Install.exec (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/lib/commands/install.js:150:5)
+npm verbose stack     at async Npm.exec (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/lib/npm.js:207:9)
+npm verbose stack     at async module.exports (/home/vanessa/.local/share/fnm/node-versions/v20.17.0/installation/lib/node_modules/npm/lib/cli/entry.js:74:5)
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: projetonexus@1.0.0
+npm error Found: ethers@6.13.4
+npm error node_modules/ethers
+npm error   dev ethers@"^6.13.4" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer ethers@"^5.0.0" from @nomiclabs/hardhat-ethers@2.2.3
+npm error node_modules/@nomiclabs/hardhat-ethers
+npm error   peer @nomiclabs/hardhat-ethers@"^2.0.0" from @openzeppelin/hardhat-upgrades@1.28.0
+npm error   node_modules/@openzeppelin/hardhat-upgrades
+npm error     dev @openzeppelin/hardhat-upgrades@"^1.28.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /home/vanessa/.npm/_logs/2024-10-27T14_50_49_883Z-eresolve-report.txt
+npm verbose cwd /home/vanessa/ProjetoNexus
+npm verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+npm verbose node v20.17.0
+npm verbose npm  v10.8.2
+npm verbose exit 1
+npm verbose code 1
+npm error A complete log of this run can be found in: /home/vanessa/.npm/_logs/2024-10-27T14_50_49_883Z-debug-0.log
